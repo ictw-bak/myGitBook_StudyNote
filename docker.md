@@ -9,6 +9,7 @@
 * #### docker stop &lt;容器名称/短ID&gt;来停止正在运行的容器，类似命令docker kill.
 * #### docker start &lt;容器名称...&gt;启动容器，类似命令docker restart.
 * #### docker pause &lt;容器名称&gt;暂停容器，类似命令还有unpause.
+* #### docker rm &lt;容器名称&gt; 删除一个容器.
 * #### docker attach &lt;容器id&gt;进入容器内部.
 * #### docker exec -it &lt;短ID&gt; bash进入相关容器的bash，it参数代表以交互模式打开bash.
 * #### ![](/assets/import1.png)
