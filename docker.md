@@ -15,13 +15,15 @@
 >
 > ###### **--type :**为指定类型返回JSON。
 
-* #### docker -event 参数列表：
+* #### docker -event \(类似命令还有docker -logs\)参数列表：
 
 > * **-f ：**根据条件过滤事件；
 >
 > * **--since ：**从指定的时间戳后显示所有事件;
 >
-> * **--until ：**流水时间显示到指定的时间为止；  
+> * **--until ：**流水时间显示到指定的时间为止；
+>
+> * --tail : 仅列出最近几条的日志信息.  
 >   例子：docker -event -f "iamges"="hello-world" --since  "对应时间戳"/也可以直接使用时间.
 
 * #### ![](/assets/import.png)-c参数代表所要执行的命令-------外加-d参数，可以使长期命令在后台执行，需要放在run后面，例如：docker run -d centos /bin/bash -c " command".返回的是长id，使用ps-a可以查看短id，短id是长id的前十二位.
