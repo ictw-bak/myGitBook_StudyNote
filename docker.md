@@ -20,6 +20,7 @@
 
 * #### 设置端口映射，docker run -d -p 80 httpd运行docker的web服务，修改端口使用docker run -d -p 80:80 http.
 * #### docker -P代表以80端口启动docker.
+* #### docker run -p 127.0.0.1:80:45163将容器的45162端口映射到本机的80端口.
 
 ##### 
 
