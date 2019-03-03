@@ -15,6 +15,15 @@
 >
 > ###### **--type :**为指定类型返回JSON。
 
+* #### docker -event 参数列表：
+
+> * **-f ：**根据条件过滤事件；
+>
+> * **--since ：**从指定的时间戳后显示所有事件;
+>
+> * **--until ：**流水时间显示到指定的时间为止；  
+>   例子：docker -event -f "iamges"="hello-world" --since  "对应时间戳"/也可以直接使用时间.
+
 * #### ![](/assets/import.png)-c参数代表所要执行的命令-------外加-d参数，可以使长期命令在后台执行，需要放在run后面，例如：docker run -d centos /bin/bash -c " command".返回的是长id，使用ps-a可以查看短id，短id是长id的前十二位.
 * #### docker run --name &lt;name&gt;可以指定docker名，类似的命令还有docker create &lt;name&gt;创建一个容器但不启动他.
 * #### docker stop &lt;容器名称/短ID&gt;来停止正在运行的容器，类似命令docker kill，docker kill -s 向容器放出警告.
