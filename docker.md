@@ -31,6 +31,7 @@
 * #### docker stop &lt;容器名称/短ID&gt;来停止正在运行的容器，类似命令docker kill，docker kill -s 向容器放出警告.
 * #### docker start &lt;容器名称...&gt;启动容器，类似命令docker restart.
 * #### docker pause &lt;容器名称&gt;暂停容器0，类似命令还有unpause.
+* #### docker rename &lt;原容器名称&gt; &lt;新容器名称&gt;
 * #### docker rm &lt;容器名称&gt; 删除一个容器，docker rmi &lt;镜像名称&gt;删除镜像.
 * #### docker rm -v $\(docker ps -aq -f status=exited\)删除所有已经退出的docker.
 * #### docker attach &lt;容器id&gt;进入容器内部.
@@ -59,29 +60,23 @@
 
 将容器a404c6c174a2 保存为新的镜像,并添加提交人信息和说明信息。
 
-docker commit -a "" -m "" &lt;原镜像名称&gt;  &lt;新镜像名称&gt;.
+docker commit -a "" -m "" &lt;原镜像名称&gt;  &lt;新镜像名称:verison&gt;.
 
 
 
+* #### docker cp 
 
+```
+docker cp /www/suofeiya <容器ID>:/容器中的目标目录
+docker cp <容器ID>:/容器中的目标目录 <本机目录>
+```
 
+* #### docker diff ubtuntu\_test 查看docker容器中所提交的更改.
+* #### docker tag &lt;元镜像名:版本&gt; &lt;新镜像名:版本&gt; 标记镜像并为其添加标注,tag.
 
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
 
 
 

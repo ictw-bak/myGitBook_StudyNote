@@ -1,8 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
-* Java
+* [Java](java.md)
 * [Python](python.md)
 * [Linux](linux.md)
 * [Regex](regex.md)
