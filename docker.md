@@ -117,6 +117,13 @@ docker cp <容器ID>:/容器中的目标目录 <本机目录>
 > * **--network:**默认 default。在构建期间设置RUN指令的网络模式
 
 * #### **docker history :**查看指定镜像的创建历史.
+* #### docker 容器的导入和导出:
+
+1. save 和 load
+
+2. export 和 import
+
+#### 
 
 ```
 
