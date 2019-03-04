@@ -71,7 +71,7 @@ docker cp <容器ID>:/容器中的目标目录 <本机目录>
 
 * #### docker diff ubtuntu\_test 查看docker容器中所提交的更改.
 * #### docker tag &lt;元镜像名:版本&gt; &lt;新镜像名:版本&gt; 标记镜像并为其添加标注,tag.
-* #### docker build
+* #### docker build用于使用 Dockerfile 创建镜像.
 * #### 参数列表：
 
 > * **--build-arg=\[\] :**设置镜像创建时的变量；
@@ -115,6 +115,8 @@ docker cp <容器ID>:/容器中的目标目录 <本机目录>
 > * **--tag, -t:**镜像的名字及标签，通常 name:tag 或者 name 格式；可以在一次构建中为一个镜像设置多个标签。
 >
 > * **--network:**默认 default。在构建期间设置RUN指令的网络模式
+
+* #### 
 
 ```
 
