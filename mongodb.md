@@ -7,7 +7,11 @@
 
 use 数据库名称,可以用来创建数据库
 
-#### db.集合名称.insert\({"username"："suofeiya","age":"21"}\) db.dropDatabase\(\)
+### db.集合名称.insert\({"username"："suofeiya","age":"21"}\) db.dropDatabase\(\)
+
+### db.集合名称.deleteOne\({}\)
+
+### db.集合名称.deleteMany\({}\)
 
 
 
