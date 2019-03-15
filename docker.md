@@ -118,10 +118,9 @@ docker cp <容器ID>:/容器中的目标目录 <本机目录>
 
 * #### **docker history :**查看指定镜像的创建历史.
 * #### docker 容器的导入和导出:
+* save 和 load
 
-1. save 和 load
-
-2. export 和 import
+* export 和 import
 
 #### 
 
