@@ -32,5 +32,11 @@ PONG
 redis-cli --raw
 ```
 
+## Redis 的配置文件在/etc/redis.conf，为Redis添加密码
+
+```
+requirepass yourpassword
+```
+
 
 
