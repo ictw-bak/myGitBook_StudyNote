@@ -26,5 +26,11 @@ redis-cli
 PONG
 ```
 
+## 通过以下命令可以避免出现中文乱码
+
+```
+redis-cli --raw
+```
+
 
 
