@@ -38,5 +38,32 @@ redis-cli --raw
 requirepass yourpassword
 ```
 
+## Redis-dump查看Redis中的数据
+
+```
+suofeiya@suofeiya-PC:~$ redis-dump -u :123@localhost:6379
+/var/lib/gems/2.5.0/gems/redis-dump-0.4.0/lib/redis/dump.rb:32: warning: Insecure world writable dir /usr/local/bin in PATH, mode 042777
+{"db":0,"key":"name_1","ttl":-1,"type":"string","value":"suofeiya","size":8}
+{"db":0,"key":"name","ttl":-1,"type":"string","value":"suofeiya","size":8}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
