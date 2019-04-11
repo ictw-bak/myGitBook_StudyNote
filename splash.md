@@ -18,7 +18,7 @@ end
 
 ```
 function main(splash,args)
-	local treat=require('treat')
+    local treat=require('treat')
   assert(splash:go("http://quotes.toscrape.com/"))
   assert(splash:wait(0.5))
   local texts=splash:select_all(".quote .text")
@@ -29,8 +29,6 @@ function main(splash,args)
   return treat.as_array(results),splash:png()
 end
 ```
-
-
 
 
 
