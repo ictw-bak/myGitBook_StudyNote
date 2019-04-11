@@ -1,5 +1,7 @@
 # Splash\_Lua脚本
 
+## Demo1
+
 ```
 function main(splash,args)
     splash:go("https://www.baidu.com")
@@ -10,8 +12,25 @@ function main(splash,args)
     splash:wait(3)
     return splash:png()
 end
+```
+
+## Demo2
 
 ```
+function main(splash,args)
+	local treat=require('treat')
+  assert(splash:go("http://quotes.toscrape.com/"))
+  assert(splash:wait(0.5))
+  local texts=splash:select_all(".quote .text")
+  local results={}
+  for index,text in ipairs(texts) do
+    results[index] = text.node.innerHTML
+  end
+  return treat.as_array(results),splash:png()
+end
+```
+
+
 
 
 
