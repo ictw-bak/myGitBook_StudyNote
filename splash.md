@@ -1,5 +1,11 @@
 # Splash\_Lua脚本
 
+## 在docker中启动Splash
+
+```
+docker run -p 8050:8050 scrapinghub/splash
+```
+
 ## Demo1
 
 ```
