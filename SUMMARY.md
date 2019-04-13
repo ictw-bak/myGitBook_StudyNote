@@ -13,4 +13,5 @@
 * [MongoDB](mongodb.md)
 * [Redis](redis.md)
 * [Splash](splash.md)
+* [i3wm快捷键](i3wmkuai-jie-jian.md)
 
