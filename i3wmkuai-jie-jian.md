@@ -14,13 +14,11 @@
 
 ## mod+v  +  mod+enter 新建一个横向的窗口
 
-## mod+s 将该窗口置于标签页竖排
-
 ## mod+shift+\[NUM\] 将窗口放置到制定工作区域
 
 ## mod+shift+r 重启i3
 
-## 
+## mod+s mod+w 并排或者竖排窗体
 
 
 
