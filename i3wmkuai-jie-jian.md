@@ -18,5 +18,9 @@
 
 ## mod+shift+\[NUM\] 将窗口放置到制定工作区域
 
+## mod+shift+r 重启i3
+
+## 
+
 
 
