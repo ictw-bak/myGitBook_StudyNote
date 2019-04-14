@@ -28,5 +28,7 @@
 
 ## mod+shift+space 使窗口置顶并且浮出
 
+# feh --bg-scale 壁纸路径，用来更换壁纸
+
 
 
