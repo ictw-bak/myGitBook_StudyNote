@@ -14,6 +14,8 @@
 
 ## mod+v  +  mod+enter 新建一个横向的窗口
 
+## mod+h  +  mod+enter 新建一个横向窗口
+
 ## mod+shift+\[NUM\] 将窗口放置到制定工作区域
 
 ## mod+shift+r 重启i3
