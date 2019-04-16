@@ -28,7 +28,7 @@
 
 ### :&lt;start line&gt;,&lt;end line&gt;s/old/new/g&lt;c&gt;其中line代表行号，ｃ代表对每一个进行询问，若是在同一行中进行操作，则去掉/g即可
 
-
+### 使用＃!可以执行外部命令
 
 
 
