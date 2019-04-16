@@ -42,7 +42,7 @@
 
 # VIM\_setting
 
-## :set ic忽略大小写
+## :set ic忽略大小写，使用:set noic取消设置
 
 
 
