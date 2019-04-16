@@ -26,7 +26,9 @@
 
 ### 直接按下％符号可以查看符号的配对情况，例如｛｝\[\],etc，可惜对中文配对符号不支持，如【】.
 
-### :&lt;start line&gt;,&lt;end line&gt;s/old/new/g&lt;c&gt;其中line代表行号，ｃ代表对每一个进行询问
+### :&lt;start line&gt;,&lt;end line&gt;s/old/new/g&lt;c&gt;其中line代表行号，ｃ代表对每一个进行询问，若是在同一行中进行操作，则去掉/g即可
+
+
 
 
 
