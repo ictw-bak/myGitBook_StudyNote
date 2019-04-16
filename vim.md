@@ -42,7 +42,9 @@
 
 # VIM\_setting
 
-## :set ic忽略大小写，使用:set noic取消设置
+## :set ic忽略大小写，使用:set noic取消设置，一次忽略使用/xxx\c
+
+### :set hls高亮显示搜索结果
 
 
 
